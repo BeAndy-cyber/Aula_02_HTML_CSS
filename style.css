@@ -19,7 +19,16 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0968E5", en
 
 /* Seletor Classe */
 .container {
-  background-color: #ebf4f5; 
+  background: hsla(214, 92%, 47%, 1);
+
+background: linear-gradient(90deg, hsla(214, 92%, 47%, 1) 0%, hsla(231, 85%, 24%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(214, 92%, 47%, 1) 0%, hsla(231, 85%, 24%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(214, 92%, 47%, 1) 0%, hsla(231, 85%, 24%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0968E5", endColorstr="#091970", GradientType=1 );
+  
   padding: 20px;
   width: 70%;
   margin: 0px auto;
@@ -31,7 +40,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0968E5", en
 /* Seletor agrupado */
 
 h1, h2, a{
-  color: #210cae 
+  color: #ffffff
 }
 
 /* Seletor TAG */
@@ -45,4 +54,8 @@ img{
   cursor: pointer;
   display: block;
   margin: 0px auto; 
+}
+
+p, li{
+  color="ffefc1"
 }
